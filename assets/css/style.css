@@ -18,18 +18,18 @@ body {
     width: 50%;
 }
 
-a {
+.container a {
     color: #64ffda;
 }
 
-h1 {
+.container h1 {
     font-family: Inter;
     font-weight: 800;
     font-size: 50px;
     color: rgb(204, 214, 246);
 }
 
-p {
+.container p {
     font-family: Inter;
     font-weight: 600;
     font-size: 23px;
@@ -52,23 +52,26 @@ p {
     height: 261px;
     width: 241px;
     margin: 10px;
-    padding: 0px 20px;
+    padding: 10px 20px;
     color: rgba(247, 247, 247, 0.933);
     background: #303c55;
 }
-.excercise h2 {
+.excercise a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #e6f1ff;
     font-size: 20px;
     font-weight: 700;
     font-style: normal;
-    margin-bottom: 3px;
     font-family: "Inter", sans-serif;
 }
+.excercise a:hover {
+    color: #64ffda;
+}
 .excercise img {
-    font-size: 16px;
-    font-weight: 400;
-    font-style: normal;
-    text-align: left;
-    font-family: "Inter", sans-serif;
+    margin-top: 9px;
+    width: 100%;
+    height: 70%;
 }
 
 .excercise {
